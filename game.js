@@ -126,7 +126,7 @@ function animatePress(currentColour){
     /*3. use Google/Stackoverflow to figure out how you can use Javascript to remove the pressed class after a 100 milliseconds. */
     setTimeout(function (){
         $("#" + currentColour).removeClass("pressed");
-    },100);
+    },150);
 }
 
 //1. Create a new funaction called strtOver().
